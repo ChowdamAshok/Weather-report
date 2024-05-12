@@ -1,0 +1,72 @@
+body {
+    font-family: "Playfair Display", serif;
+    background-image: url(https://i.redd.it/h1dpe0ljfb271.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1{
+    background: linear-gradient(9deg,rgb(0, 255, 234),rgb(55, 255, 5));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#weatherInfo img {
+    width: 30px; /* Adjust size as needed */
+    height: 30px;
+    margin-right: 10px; /* Adjust spacing */
+}
+.container{
+    padding: 20px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 10px;
+}
+
+input[type="text"],
+button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    border-color: red;
+}
+
+.card-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0 auto;   
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.hourlyWeather{
+    width: 50%;
+    text-align: left;
+}
+.dailyWeather{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+#weatherInfo {
+    text-align: center;
+}
+
+#hourlyWeather,
+#dailyWeather {
+    margin-top: 20px;
+}
