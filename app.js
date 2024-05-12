@@ -110,3 +110,8 @@ function updateBackground(icon) {
             break;
     }
 }
+
+
+gsap.from('.logo',{opacity: 0, duration: 1, delay:1, y:30, stagger:0.2})
+gsap.from('.card',{opacity: 0, duration: 1, delay:1.5, y:30, stagger:0.2})
+gsap.from('.card-2',{opacity: 0, duration: 1, delay:2, y:30, stagger:0.2})
