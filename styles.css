@@ -15,15 +15,31 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 
-#weatherInfo img {
-    width: 30px; /* Adjust size as needed */
-    height: 30px;
-    margin-right: 10px; /* Adjust spacing */
-}
 .container{
     padding: 20px;
+}
+@media  (max-width: 768px){
+    body{
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    .logo {
+        width: 100%;
+
+    }
+    .container{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+    .card-2{
+        width: 100%;
+    }
 }
 
 .card {
@@ -41,6 +57,14 @@ button {
     margin-bottom: 10px;
     width: 90%;
     border-color: red;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(31, 16, 16, 0.514);
+}
+button:hover{
+    background-color: rgba(0, 238, 255, 0.452);
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    border-radius: 15px;
+    transform:scale(1.1);
 }
 
 .card-2 {
